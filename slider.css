@@ -1,0 +1,60 @@
+/* السلايدر */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider-slide {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider-button.prev {
+    right: 16px;
+}
+
+.slider-button.next {
+    left: 16px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.slider-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--gray-300);
+    cursor: pointer;
+}
+
+.slider-dot.active {
+    background: var(--primary);
+    width: 24px;
+    border-radius: 10px;
+}

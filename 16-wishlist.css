@@ -1,0 +1,80 @@
+/* صفحة المفضلة */
+.wishlist-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.wishlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.wishlist-card {
+    background: var(--bg-primary);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.wishlist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.wishlist-image {
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wishlist-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.wishlist-card:hover .wishlist-image img {
+    transform: scale(1.05);
+}
+
+.wishlist-info {
+    padding: 16px;
+}
+
+.wishlist-info h3 {
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.wishlist-info .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.wishlist-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.empty-wishlist-page {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.empty-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}

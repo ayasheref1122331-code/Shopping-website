@@ -1,0 +1,109 @@
+/* الصفحة الرئيسية */
+.hero-slider {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    margin: 20px;
+    border-radius: 32px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-content {
+    padding: 80px 40px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 24px;
+    opacity: 0.9;
+}
+
+.hero-btn {
+    background: white;
+    color: var(--primary);
+    padding: 14px 32px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.categories-section {
+    padding: 40px 20px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section-header h2 {
+    font-size: 28px;
+}
+
+.view-all {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    text-align: center;
+    padding: 20px;
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius-lg);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background: var(--primary);
+    color: white;
+}
+
+.category-icon {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.offer-banner {
+    background: linear-gradient(135deg, var(--success), var(--info));
+    margin: 40px 20px;
+    padding: 60px 40px;
+    border-radius: 32px;
+    text-align: center;
+    color: white;
+}
+
+.offer-banner h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.offer-banner code {
+    background: rgba(255,255,255,0.2);
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 16px 0;
+    display: inline-block;
+}

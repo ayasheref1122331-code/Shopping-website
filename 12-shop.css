@@ -1,0 +1,115 @@
+/* صفحة المتجر */
+.shop-container {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.shop-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.filter-group {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.filter-group h4 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.filter-option input {
+    width: 16px;
+    height: 16px;
+}
+
+.price-range {
+    padding: 10px 0;
+}
+
+.price-inputs {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.price-inputs input {
+    width: 50%;
+    padding: 6px;
+}
+
+.shop-content {
+    flex: 1;
+}
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.sort-options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sort-options select {
+    padding: 8px 16px;
+    border-radius: 40px;
+}
+
+.view-options {
+    display: flex;
+    gap: 8px;
+}
+
+.view-options button {
+    padding: 8px;
+    border-radius: 8px;
+    background: var(--bg-secondary);
+}
+
+.view-options button.active {
+    background: var(--primary);
+    color: white;
+}
+
+.results-count {
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: var(--bg-secondary);
+}
+
+.pagination button.active {
+    background: var(--primary);
+    color: white;
+}

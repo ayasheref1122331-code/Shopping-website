@@ -1,0 +1,109 @@
+/* تصميم متجاوب - جميع الشاشات */
+
+/* شاشات كبيرة جداً (لابتوب) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* شاشات متوسطة (تابلت أفقي) */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+/* شاشات تابلت */
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .shop-container {
+        flex-direction: column;
+    }
+    
+    .shop-sidebar {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+/* شاشات موبايل كبيرة */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 16px;
+    }
+    
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-slider h1 {
+        font-size: 28px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .search-bar {
+        width: 100%;
+    }
+    
+    .search-bar input {
+        width: 100%;
+    }
+    
+    .categories-container {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .cart-sidebar, .wishlist-sidebar {
+        width: 100%;
+        right: -100%;
+    }
+}
+
+/* شاشات موبايل صغيرة */
+@media (max-width: 480px) {
+    .product-card {
+        max-width: 100%;
+    }
+    
+    .modal-container {
+        width: 95%;
+        margin: 20px auto;
+    }
+    
+    .checkout-steps {
+        flex-wrap: wrap;
+    }
+    
+    .step {
+        flex: 1;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .cart-item {
+        flex-wrap: wrap;
+    }
+    
+    .cart-item img {
+        width: 60px;
+        height: 60px;
+    }
+}

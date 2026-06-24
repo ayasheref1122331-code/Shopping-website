@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجري المثالي | إتمام الشراء</title>
+    <link rel="stylesheet" href="../css/1-main.css">
+    <link rel="stylesheet" href="../css/2-variables.css">
+    <link rel="stylesheet" href="../css/3-responsive.css">
+    <link rel="stylesheet" href="../css/4-dark-mode.css">
+    <link rel="stylesheet" href="../css/components/5-header.css">
+    <link rel="stylesheet" href="../css/components/6-footer.css">
+    <link rel="stylesheet" href="../css/components/10-buttons.css">
+    <link rel="stylesheet" href="../css/pages/15-checkout.css">
+</head>
+<body>
+    <div id="app">
+        <header id="main-header"></header>
+        <main class="checkout-page">
+            <div class="checkout-container">
+                <div class="checkout-steps" id="checkoutSteps">
+                    <div class="step active">1. المعلومات</div>
+                    <div class="step">2. الشحن</div>
+                    <div class="step">3. الدفع</div>
+                    <div class="step">4. التأكيد</div>
+                </div>
+                <div class="checkout-form" id="checkoutForm"></div>
+                <div class="order-summary" id="orderSummary"></div>
+            </div>
+        </main>
+        <footer id="main-footer"></footer>
+    </div>
+    
+    <script src="../js/1-config.js"></script>
+    <script src="../js/2-constants.js"></script>
+    <script src="../js/3-utils/helpers.js"></script>
+    <script src="../js/3-utils/validators.js"></script>
+    <script src="../js/3-utils/formatters.js"></script>
+    <script src="../js/4-services/storage.js"></script>
+    <script src="../js/4-services/cart.js"></script>
+    <script src="../js/4-services/auth.js"></script>
+    <script src="../js/5-components/Header.js"></script>
+    <script src="../js/5-components/Footer.js"></script>
+    <script src="../js/6-pages/checkout.js"></script>
+</body>
+</html>

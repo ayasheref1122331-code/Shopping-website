@@ -1,0 +1,19 @@
+{
+  "total": 50,
+  "products": [
+    {
+      "id": 1,
+      "name": "سماعة لاسلكية Pro",
+      "price": 299,
+      "oldPrice": 599,
+      "image": "https://picsum.photos/id/1/400/400",
+      "category": "electronics",
+      "rating": 4.8,
+      "reviews": 234,
+      "stock": 15,
+      "sold": 120,
+      "brand": "Sony",
+      "features": ["بلوتوث 5.0", "بطارية 20 ساعة", "عزل ضوضاء"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+/* صفحة تأكيد الطلب */
+.confirmation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.confirmation-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.order-number {
+    background: var(--bg-secondary);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.order-details {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.confirmation-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+    justify-content: center;
+}

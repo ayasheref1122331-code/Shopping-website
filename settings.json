@@ -1,0 +1,10 @@
+{
+  "siteName": "متجري المثالي",
+  "siteEmail": "info@myshop.com",
+  "sitePhone": "0123456789",
+  "address": "القاهرة، مصر",
+  "shippingCost": 45,
+  "freeShippingMin": 500,
+  "taxRate": 14,
+  "currency": "EGP"
+}

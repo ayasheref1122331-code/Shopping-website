@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "أحمد محمد",
+      "email": "ahmed@example.com",
+      "phone": "01234567890",
+      "role": "user",
+      "createdAt": "2024-01-01"
+    }
+  ]
+}

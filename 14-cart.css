@@ -1,0 +1,102 @@
+/* صفحة سلة التسوق */
+.cart-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.cart-page h1 {
+    margin-bottom: 30px;
+}
+
+.cart-content {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th {
+    text-align: right;
+    padding: 12px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.cart-table td {
+    padding: 16px 12px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cart-product img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-summary {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 24px;
+    position: sticky;
+    top: 100px;
+}
+
+.cart-summary h3 {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.summary-row.total {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+    margin-top: 12px;
+}
+
+.coupon-input {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.coupon-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 16px;
+}
+
+.empty-cart-page {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.empty-cart-page .empty-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "rating": 5,
+      "comment": "منتج رائع جداً",
+      "date": "2024-01-15"
+    }
+  ]
+}

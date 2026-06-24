@@ -1,0 +1,121 @@
+/* صفحة الملف الشخصي */
+.profile-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.profile-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+}
+
+.profile-sidebar {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.profile-avatar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.profile-menu {
+    list-style: none;
+}
+
+.profile-menu li {
+    margin-bottom: 8px;
+}
+
+.profile-menu a {
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.profile-menu a:hover,
+.profile-menu a.active {
+    background: var(--primary);
+    color: white;
+}
+
+.profile-content {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.profile-details {
+    display: grid;
+    gap: 20px;
+}
+
+.order-card {
+    background: var(--bg-primary);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border-color);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.order-status {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.order-status.delivered {
+    background: rgba(16,185,129,0.1);
+    color: var(--success);
+}
+
+.order-items {
+    margin-bottom: 12px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.order-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.order-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+}
+
+.order-total {
+    font-weight: bold;
+    font-size: 18px;
+}

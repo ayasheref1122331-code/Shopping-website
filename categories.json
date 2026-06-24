@@ -1,0 +1,11 @@
+{
+  "categories": [
+    {"id": "electronics", "name": "الإلكترونيات", "icon": "📱", "color": "#3b82f6", "count": 45},
+    {"id": "fashion", "name": "الموضة", "icon": "👗", "color": "#ec4899", "count": 38},
+    {"id": "books", "name": "الكتب", "icon": "📚", "color": "#8b5cf6", "count": 52},
+    {"id": "home", "name": "المنزل", "icon": "🏠", "color": "#10b981", "count": 28},
+    {"id": "sports", "name": "الرياضة", "icon": "⚽", "color": "#f59e0b", "count": 22},
+    {"id": "beauty", "name": "التجميل", "icon": "💄", "color": "#f43f5e", "count": 35},
+    {"id": "toys", "name": "الألعاب", "icon": "🎮", "color": "#14b8a6", "count": 18}
+  ]
+}

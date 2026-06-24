@@ -1,0 +1,9 @@
+{
+  "cities": [
+    {"name": "القاهرة", "country": "EG"},
+    {"name": "الإسكندرية", "country": "EG"},
+    {"name": "الجيزة", "country": "EG"},
+    {"name": "الرياض", "country": "SA"},
+    {"name": "دبي", "country": "AE"}
+  ]
+}

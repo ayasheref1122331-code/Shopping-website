@@ -1,0 +1,14 @@
+{
+  "ar": {
+    "welcome": "مرحباً بك",
+    "search": "بحث",
+    "cart": "السلة",
+    "checkout": "إتمام الشراء"
+  },
+  "en": {
+    "welcome": "Welcome",
+    "search": "Search",
+    "cart": "Cart",
+    "checkout": "Checkout"
+  }
+}

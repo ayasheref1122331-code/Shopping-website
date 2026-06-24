@@ -1,0 +1,7 @@
+{
+  "countries": [
+    {"name": "مصر", "code": "EG", "shipping": 45},
+    {"name": "السعودية", "code": "SA", "shipping": 80},
+    {"name": "الإمارات", "code": "AE", "shipping": 70}
+  ]
+}

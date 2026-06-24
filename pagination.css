@@ -1,0 +1,36 @@
+/* أزرار التصفح */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 40px 0;
+}
+
+.pagination button {
+    min-width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: var(--bg-secondary);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.pagination button:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.pagination button.active {
+    background: var(--primary);
+    color: white;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+    padding: 0 8px;
+}

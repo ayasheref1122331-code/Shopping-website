@@ -1,0 +1,7 @@
+{
+  "coupons": [
+    {"code": "WELCOME20", "discount": 20, "type": "percentage", "minOrder": 100},
+    {"code": "SAVE50", "discount": 50, "type": "fixed", "minOrder": 300},
+    {"code": "FREESHIP", "discount": 0, "type": "free_shipping", "minOrder": 200}
+  ]
+}
